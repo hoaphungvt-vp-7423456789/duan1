@@ -1,0 +1,473 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+}
+
+.boxcenter {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+.demo {
+    background: antiquewhite;
+    min-height: 100px
+}
+
+.header {
+    background-color: aquamarine;
+    border: 1px #766b6b solid;
+    color: blue;
+    border-radius: 5px;
+}
+
+.header h1 {
+    font-size: 1.2vw;
+    margin: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+    color: #ccc;
+    border-radius: 5px;
+
+}
+
+.boxtrai {
+    float: left;
+    width: 74%;
+}
+
+.boxphai {
+    float: left;
+    width: 24%;
+}
+
+.boxtitle {
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #999;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: aquamarine;
+    border: 1px #009900 solid;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.box_title {
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.boxcontent {
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-height: 200px;
+    padding: 20PX;
+}
+
+.box_content2 {
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #fff;
+}
+
+.box_footer {
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+}
+
+.banner {
+    text-align: center;
+    min-height: 300px;
+    width: 100%;
+}
+
+.banner img {
+    height: 300px;
+}
+
+.box_sanpham {
+    text-align: center;
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.box_sanpham .img {
+    min-height: 230px;
+    text-align: center;
+
+}
+
+.img img {
+    /* width: 30%; */
+    height: 120px;
+    overflow: hidden;
+}
+
+.menu ul {
+    padding: 0px 15px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    color: #fff;
+    font-size: 1vw;
+}
+
+/* box tài khoản*/
+.form_taikhoan {
+    line-height: 200%;
+}
+
+.form_taikhoan input[type="text"],
+.form_taikhoan input[type="email"],
+.form_taikhoan input[type="password"],
+.form_content input[type="text"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.form_taikhoan input[type="checkbox"] {
+    border-radius: 5px;
+}
+
+.form_taikhoan input[type="submit"],
+.form_content input[type="submit"],
+.form_content input[type="reset"],
+.form_taikhoan input[type="reset"],
+.form_content input[type="button"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #ccc solid;
+}
+
+.form_taikhoan input[type="submit"]:hover,
+.form_content input[type="submit"]:hover,
+.form_content input[type="reset"]:hover,
+.form_content input[type="button"]:hover {
+    background-color: #ccc;
+}
+
+.form_taikhoan li a {
+    color: teal;
+    text-decoration: none;
+}
+
+.form_taikhoan li a:hover {
+    color: #660;
+    text-decoration: underline;
+}
+
+/* menu dọc */
+.menu_doc ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu_doc ul li {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px #ccc solid;
+}
+
+.menu_doc ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.menu_doc ul li:hover {
+    background-color: #ccc;
+}
+
+.searbox input[type="text"] {
+    width: 70%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+
+.top10 img {
+    width: 20%;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.top10 a {
+    color: #666;
+    text-decoration: none;
+}
+
+.top10 a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* admin */
+.headeradmin {
+    background-color: #eee;
+    border: 1px #cccc solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.headeradmin h1 {
+    font-size: 2vw;
+}
+
+.form_title {
+    background-color: #eee;
+    border: 1px #cccc solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.form_content {
+    padding: 20px 0px;
+}
+
+.form_dsloai table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px #999 solid;
+}
+
+.form_dsloai table th:nth-child(1) {
+    width: 10%;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.form_dsloai table th:nth-child(2) {
+    width: 30%;
+    background-color: #ccc;
+}
+
+.form_dsloai table th:nth-child(3) {
+    width: 40%;
+    background-color: #ccc;
+}
+
+.form_dsloai table th:nth-child(4) {
+    width: 20%;
+    background-color: #ccc;
+}
+
+.form_dsloai table td {
+    padding: 10px 20px;
+    border: 1px #ccc solid;
+
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .5;
+    }
+
+    to {
+        opacity: 2;
+    }
+}
+
+/*end sliceshow */
+.spct {
+    text-align: center;
+}
+
+.spct img {
+    width: 50%;
+}
+
+.box_sanpham img {
+    overflow: hidden;
+    /* width: 50%; */
+
+}
+
+/* .box_sanpham mr {
+    overflow: hidden;
+} */
+.thongbao {
+    color: red;
+}
+
+table {
+    padding: 20px;
+
+}
+
+th,
+td {
+    font-size: 1vw;
+    width: 150px;
+    border-bottom: 2px solid rgb(173, 164, 164);
+}
+
+.binhluan table {
+    width: 90%;
+}
+
+.binhluan table td:nth-child(1) {
+    width: 50%;
+}
+
+.binhluan table td:nth-child(2) {
+    width: 20%;
+}
+
+.binhluan table td:nth-child(3) {
+    width: 30%;
+}
