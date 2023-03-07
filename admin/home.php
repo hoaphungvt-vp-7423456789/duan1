@@ -1,6 +1,6 @@
 <div class="row">
     <div class="row frmtitle">
-        <h1>Thêm mới loại hàng hóa</h1>
+        <h2>Thêm mới loại hàng hóa</h2>
     </div>
     <div class="row frmcontent">
         <form action="" method="post">
